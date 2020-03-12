@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+pipfile = "*"
+pipenv = "*"
+flask = "==1.1.1"
+requests = "==2.22.0"
+flask-loguru = "==1.0.0"
+
+[requires]
+python_version = "3.7"
